@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* Alinhamento de Texto */
+.alinhamento-direita{
+    text-align: right;
+}
+ 
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon;
+}
+ 
+/* Decoração de Texto */
+.underline{
+    text-decoration: underline;
+}
+ 
+.line-through{
+    text-decoration: line-through;
+}
+ 
+.remove-underline{
+    text-decoration: none;
+    color: orangered;
+}
+ 
+.overline{
+    text-decoration: overline;
+    color:chocolate;
+}
+ 
+/* Transformação de Texto */
+.maiusculas{
+    text-transform: uppercase;   
+}
+
+.minusculas{
+    text-transform: lowercase;
+}
+
+.primeira-letra-maiuscula{
+    text-transform: capitalize;
+}
+
+/* Espaçamento entre as letras */
+.spacing{
+    letter-spacing: 10px;
+}
+
+/* Fontes */
+.fonte-serif{
+    font-family: serif;
+}
+
+.fontes-sans-serif{
+    font-family:sans-serif;
+}
+
+.font-monospace{
+    font-family: monospace
+}
+
+.fonte-cursive{
+    font-family: cursive;
+}
+
+.fonte-fantasy{
+    font-family: fantasy;
+}
+
+.outra-fonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* o link do import vai no topo da página */
+.trazer-fonte{
+    font-family: 'Croissant One', cursive;
+}
+
+/* Estilo de Fonte */
+.normal{
+    font-style:normal;
+}
+
+.italic{
+    font-family: italic;
+
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* Espessura da fonte */
+.lighter, .bold, .bolder{
+    font-family: helvetica;
+}
+
+.lighter{
+    font-weight: 100;
+}
+
+.bolde{
+    font-weight: 500;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Tamanho da fonte *
+ 
+ 
+<!-- Alinhamento de Texto -->
+<p class="alinhamento-direita">Alinhando o texto à direita</p>
+ 
+<div class="centralizar-container">
+  <h2>Centralizado</h2>
+  <p>Paragráfo de teste</p>
+</div>
+ 
+ 
+<!-- Decoração de Texto -->
+<p class="underline">Eu tenho um sublinhado</p>
+ 
+<p class="line-through">Eu tenho um risco</p>
+ 
+<a href="#" class="remove-underline">Sem sublinhado</a>
+ 
+<p class="overline">Eu tenho uma Sobrelinha</p>
+ 
+<!-- Transformação de Texto -->
+<p class="maiusculas">Esse texto tem letras maiúsculas</p>
+ 
+<p class="minusculas">ESSE TEXTO TEM LETRA MINÚSCULAS</p>
+ 
+<p class="primeira-letra-maiuscula">esse texto tem a primeira letra em maiúscula</p>
+ 
+<!-- Espaçamento entre as letras -->
+<h1 class="spacing">Esse título tem espaçamento entre as letras</h1>
+ 
+<!-- Fontes -->
+<!-- Dica: segurar SHIFT e ALT e Seta para baixo, copia a linha e cola -->
+<p class="fonte-serif">Essa é uma fonte Serif</p>
+<p class="fonte-sans-serif">Essa é uma fonte Sans Serif</p>
+<p class="fonte-monospace">Essa é uma fonte Monospace</p>
+<p class="fonte-cursive">Essa é uma fonte Cursive</p>
+<p class="fonte-fantasy">Essa é uma fonte Fantasy</p>  
+ 
+<p class="outra-fonte">Essa é uma fonte do navegador: Fonte da mesma Família</p>
+<p class="trazer-fonte">Essa fonte vem de um site</p>
+ 
+<!-- Estilo de Fonte -->
+<p class="normal">Fonte Normal</p>
+<p class="italic">Fonte Itálica</p>
+<p class="oblique">Fonte Oblíqua</p>
+ 
+<!-- Espessura da Fonte -->
+<p class="lighter">Parágrafo com espessura mais fina</p>
+<p class="bold">Parágrafo com espessura mais grossa</p>
+<p class="bolder">Parágrafo com espessura ainda mais grossa</p>
+ 
+<!-- Tamanho da Fonte -->
+<p class="tamanho-30px">Essa fonte tem tamanho de 30px</p>
+<p class="tamanho-80px">Essa fonte tem tamanho de 80px</p>
+<p class="xx-small">Essa fonte é xx-small</p>
+<p class="xx-large">Essa fonte é xx-large</p>
+ 
+ 
+</body>
+</html>
+ 
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+ 
+/* Alinhamento de Texto */
+.alinhamento-direita{
+    text-align: right;
+}
+ 
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon;
+}
+ 
+/* Decoração de Texto */
+.underline{
+    text-decoration: underline;
+}
+ 
+.line-through{
+    text-decoration: line-through;
+}
+ 
+.remove-underline{
+    text-decoration: none;
+    color: orangered;
+}
+ 
+.overline{
+    text-decoration: overline;
+    color:chocolate;
+}
+ 
+/* Transformação de Texto */
+.maiusculas{
+    text-transform: uppercase;
+}
+ 
+.minusculas{
+    text-transform: lowercase;
+}
+ 
+.primeira-letra-maiuscula{
+    text-transform: capitalize;
+}
+ 
+/* Espaçamento entre as letras */
+.spacing{
+    letter-spacing: 10px;
+}
+ 
+/* Fontes */
+.fonte-serif{
+    font-family: serif;
+}
+ 
+.fonte-sans-serif{
+    font-family: sans-serif;
+}
+ 
+.fonte-monospace{
+    font-family: monospace;
+}
+ 
+.fonte-cursive{
+    font-family: cursive;
+}
+ 
+.fonte-fantasy{
+    font-family: fantasy;
+}
+ 
+.outra-fonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* O link do import vai no topo da página */
+.trazer-fonte{
+    font-family: 'Croissant One', cursive;
+}
+ 
+/* Estilo de Fonte */
+.normal{
+    font-style: normal;
+}
+ 
+.italic{
+    font-style: italic;
+}
+ 
+.oblique{
+    font-style: oblique;
+}
+ 
+/* Espessura da Fonte */
+.lighter, .bold, .bolder{
+    font-family: helvetica;
+}
+ 
+.lighter{
+    font-weight: 100;
+}
+ 
+.bold{
+    font-weight: bold;
+}
+ 
+.bolder{
+    font-weight: 900;
+}
+ 
+/* Tamanho da fonte */
+.tamanho-30px{
+    font-size: 30px;
+}
+ 
+.tamanho-80px{
+    font-size: 80px;
+}
+ 
+.xx-small{
+    font-size: xx-small;
+}
+ 
+.xx-large{
+    font-size: xx-large;
+}
+ 
+ 
